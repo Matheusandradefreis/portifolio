@@ -258,6 +258,12 @@ CSS START.HTML
   padding: 80px;
   text-decoration: none;
 }
+.paragraph_project_2{
+  max-width: 200px;
+  color: rgba(255, 255, 255, 0.75);;
+  margin-top: -30px;
+  margin-left: 530px;
+}
 .project_3 {
   border: 4px solid rgba(255, 255, 255, 0.75);
   border-radius: 10vh;
@@ -280,6 +286,14 @@ CSS START.HTML
   margin-left: -80px;
   margin-top: -80px;
   border-radius: 50px;
+}
+.img_project_2{
+  width: 49vh;
+  max-height: 30vh;
+  margin-left: -80px;
+  margin-top: -85px;
+  border-radius: 50px;
+
 }
 /*CSS SKILLS_HTML*/
 
