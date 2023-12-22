@@ -8,6 +8,18 @@
 /*
 CSS START.HTML
 */
+.start_section{
+  max-height: 600px;
+}
+.about_me_section{
+  max-height: 600px;
+}
+.projects_section{
+  max-height: 800px;
+}
+.skills_section{
+  max-height: 600px;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -317,4 +329,11 @@ CSS START.HTML
     width: 20vh;
     cursor: pointer;
     animation: fadeInFadeOut 4s linear infinite;
+}
+
+.text_footer{
+  color: rgba(255, 255, 255, 0.75);;
+  opacity: 40%;
+  margin-top: 20vh;
+  margin-left: 85vh;
 }
