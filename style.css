@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(25, 25, 25);
+  font-family: "Special Elite";
+}
+/*
+CSS START.HTML
+*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: none;
+}
+/*CSS_IMG_NAVBAR*/
+.img_navbar {
+  margin-top: 6vh;
+  margin-left: 30vh;
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+}
+.img_html {
+  width: 5vh;
+  cursor: pointer;
+}
+.img_css {
+  width: 5vh;
+  cursor: pointer;
+}
+.img_js {
+  width: 5vh;
+  cursor: pointer;
+}
+.img_sql {
+  width: 5vh;
+  cursor: pointer;
+}
+.img_php {
+  width: 5vh;
+  cursor: pointer;
+}
+/*CSS TEXT_NAVBAR*/
+.text_navbar {
+  margin-left: 100vh;
+  margin-top: -5vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10vh;
+  font-size: 18px;
+}
+.start_text {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.about_me_text {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.projects_text {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.skills_text {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.start_section {
+  margin-top: 40vh;
+  margin-left: 20vh;
+}
+.primary_text_start_html {
+  font-size: 25px;
+  margin-top: 50vh;
+  font: xx-small;
+  color: rgba(255, 255, 255, 0.75);
+  animation: blinkCursor 500ms infinite normal, typing 4s steps(40) 1s normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.secundary_text_start_html {
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  margin-right: 893px;
+  font-size: 25px;
+  font: bold;
+  color: rgba(255, 255, 255, 0.75);
+  animation: blinkCursor 500ms infinite normal, typing 4s steps(40) 1s normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* WRITTEN ANIMATION */
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18em;
+  }
+}
+.btn_primary_section {
+  margin-top: 8vh;
+}
+.linkedin_btn {
+  background-color: rgb(25, 25, 25);
+  border-radius: 14px;
+  width: 30vh;
+  height: 5vh;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.github_btn {
+  background-color: rgb(25, 25, 25);
+  border-radius: 14px;
+  width: 30vh;
+  height: 5vh;
+  color: whitesmoke;
+  margin-left: 10vh;
+  cursor: pointer;
+}
+
+.img_primary_section_start_html {
+  width: 40vh;
+  margin-left: 120vh;
+  margin-top: -36vh;}
+/*CSS ABOUT_ME_HTML*/
+.about_me_1 {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12vh;
+  margin-left: 104vh;
+  margin-top: -55vh;
+  text-align: cen;
+}
+.about_me_2 {
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 80vh;
+  text-align: justify;
+  margin-left: 100vh;
+}
+/*CSS ABOUT_ME_IMG*/
+.img_avatar {
+  margin-top: 33vh;
+  margin-left: 18vh;
+  width: 60vh;
+}
+.tecnology_img_about_me {
+  margin-top: 8vh;
+  margin-left: 110vh;
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+}
+.img_about_me_html {
+  height: 10vh;
+  cursor: pointer;
+  animation: fadeInFadeOut 4s linear infinite;
+}
+.img_about_me_css {
+  height: 10vh;
+  cursor: pointer;
+  animation: fadeInFadeOut 4s linear infinite;
+}
+.img_about_me_js {
+  height: 10vh;
+  cursor: pointer;
+  animation: fadeInFadeOut 4s linear infinite;
+}
+.img_about_me_sql {
+  height: 10vh;
+  cursor: pointer;
+  animation: fadeInFadeOut 4s linear infinite;
+}
+.img_about_me_php {
+  height: 10vh;
+  cursor: pointer;
+  animation: fadeInFadeOut 4s linear infinite;
+}
+/*CSS ANIMATION_ABOUT_ME*/
+@keyframes fadeInFadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*CSS PROJECTS_HTML*/
+.text_projects {
+  font-size: 18vh;
+  color: rgba(255, 255, 255, 0.75);
+  margin-left: 60vh;
+  margin-top: 20vh;
+}
+/*CSS GRID_PROJECTS_HTML*/
+.grid {
+  display: grid;
+}
+
+.project_1 {
+  border: 4px solid rgba(255, 255, 255, 0.75);
+  border-radius: 10vh;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: whitesmoke;
+  width: 50vh;
+  height: 30vh;
+  margin-left: 20vh;
+  margin-top: 15vh;
+  text-align: center;
+  padding: 80px;
+  text-decoration: none;
+}
+.paragraph_project_1{
+  max-width: 200px;
+  color: rgba(255, 255, 255, 0.75);;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.project_2 {
+  border: 4px solid rgba(255, 255, 255, 0.75);
+  border-radius: 10vh;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: whitesmoke;
+  width: 50vh;
+  height: 30vh;
+  margin-left: 80vh;
+  margin-top: -41vh;
+  text-align: center;
+  padding: 80px;
+  text-decoration: none;
+}
+.project_3 {
+  border: 4px solid rgba(255, 255, 255, 0.75);
+  border-radius: 10vh;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: whitesmoke;
+  width: 50vh;
+  height: 30vh;
+  margin-left: 140vh;
+  margin-top: -41vh;
+  text-align: center;
+  padding: 80px;
+  text-decoration: none;
+}
+/*CSS PROJECTS_HTML_IMG*/
+.img_project_1{
+  width: 49vh;
+  max-height: 30vh;
+  margin-left: -80px;
+  margin-top: -80px;
+  border-radius: 50px;
+}
+/*CSS SKILLS_HTML*/
+
+.text_skills_1 {
+  font-size: 16vh;
+  color: rgba(255, 255, 255, 0.75);
+  margin-left: 60vh;
+  margin-top: 30vh;
+}
+
+
+/*IMG_SKILLS_HTML*/
+.img_skills {
+    margin-top: 20vh;
+    margin-left: 40vh;
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+}
+
+.img_skills_html{
+    width: 20vh;
+    cursor: pointer;
+    animation: fadeInFadeOut 4s linear infinite;
+
+}
+.img_skills_css{
+    width: 20vh;
+    cursor: pointer;
+    animation: fadeInFadeOut 4s linear infinite;
+ 
+
+}
+.img_skills_js{
+    width: 20vh;
+    cursor: pointer;
+    animation: fadeInFadeOut 4s linear infinite;
+
+}
+.img_skills_sql{
+    width: 20vh;
+    cursor: pointer;
+    animation: fadeInFadeOut 4s linear infinite;
+
+}
+.img_skills_php{
+    width: 20vh;
+    cursor: pointer;
+    animation: fadeInFadeOut 4s linear infinite;
+}
