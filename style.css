@@ -30,8 +30,8 @@ CSS START.HTML
 }
 /*CSS_IMG_NAVBAR*/
 .img_navbar {
-  margin-top: 6vh;
-  margin-left: 30vh;
+  margin-top: 6%;
+  margin-left: 15%;
   display: flex;
   flex-direction: row;
   gap: 2vh;
@@ -58,12 +58,12 @@ CSS START.HTML
 }
 /*CSS TEXT_NAVBAR*/
 .text_navbar {
-  margin-left: 100vh;
-  margin-top: -5vh;
+  margin-left: 50%;
+  margin-top: -2%;
   display: flex;
   flex-wrap: wrap;
   gap: 10vh;
-  font-size: 18px;
+  font-size: 100%;
 }
 .start_text {
   text-decoration: none;
@@ -82,12 +82,12 @@ CSS START.HTML
   color: whitesmoke;
 }
 .start_section {
-  margin-top: 40vh;
-  margin-left: 20vh;
+  margin-top: 20%;
+  margin-left: 10%;
 }
 .primary_text_start_html {
-  font-size: 25px;
-  margin-top: 50vh;
+  font-size: 150%;
+  margin-top: 25%;
   font: xx-small;
   color: rgba(255, 255, 255, 0.75);
   animation: blinkCursor 500ms infinite normal, typing 4s steps(40) 1s normal;
@@ -96,14 +96,16 @@ CSS START.HTML
 }
 .secundary_text_start_html {
   border-right: 2px solid rgba(255, 255, 255, 0.75);
-  margin-right: 893px;
-  font-size: 25px;
-  font: bold;
+  margin-right: 73%;
+  font-size: 155%;
   color: rgba(255, 255, 255, 0.75);
   animation: blinkCursor 500ms infinite normal, typing 4s steps(40) 1s normal;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 100%;
+  position: absolute;
 }
+
 /* WRITTEN ANIMATION */
 @keyframes blinkCursor {
   from {
@@ -118,16 +120,16 @@ CSS START.HTML
     width: 0;
   }
   to {
-    width: 18em;
+    width: 35%;
   }
 }
 .btn_primary_section {
-  margin-top: 8vh;
+  margin-top: 4%;
 }
 .linkedin_btn {
   background-color: rgb(25, 25, 25);
   border-radius: 14px;
-  width: 30vh;
+  width: 15%;
   height: 5vh;
   color: whitesmoke;
   cursor: pointer;
@@ -135,17 +137,17 @@ CSS START.HTML
 .github_btn {
   background-color: rgb(25, 25, 25);
   border-radius: 14px;
-  width: 30vh;
+  width: 15%;
   height: 5vh;
   color: whitesmoke;
-  margin-left: 10vh;
+  margin-left: 5%;
   cursor: pointer;
 }
 
 .img_primary_section_start_html {
-  width: 40vh;
-  margin-left: 120vh;
-  margin-top: -36vh;}
+  width: 20%;
+  margin-left: 60%;
+  margin-top: -36%;}
 /*CSS ABOUT_ME_HTML*/
 .about_me_1 {
   color: rgba(255, 255, 255, 0.75);
@@ -351,3 +353,200 @@ CSS START.HTML
   margin-top: 20vh;
   margin-left: 85vh;
 }
+/* MEDIA QUERY START_SECTION*/
+@media (max-width: 1115px) {
+  .primary_text_start_html {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1115px) {
+  .secundary_text_start_html {
+    margin-left: 9%;
+    margin-right: 573px;
+
+  }
+}
+@media (max-width: 1115px) {
+  .linkedin_btn {
+   margin-left: 10%;
+  }
+}
+@media (max-width: 1115px) {
+  .img_primary_section_start_html{
+   margin-left: 70%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img_navbar {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1000px) {
+  .text_navbar {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 860px) {
+  .img_navbar {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 860px) {
+.text_navbar {
+   font-size: 80%;
+  position: absolute;
+ }
+
+@media (max-width: 860px) {
+  .linkedin_btn {
+   margin-left: 10%;
+   margin-top: 5%;
+    }
+}
+
+@media (max-width: 860px) {
+  .primary_text_start_html {
+    margin-left: -5%;
+  }
+}
+@media (max-width: 860px) {
+  .secundary_text_start_html {
+    margin-left: -4%;
+  }
+}
+@media (max-width: 860px) {
+  .linkedin_btn {
+   margin-left: -2%;
+  }
+}
+@media (max-width: 860px) {
+  .img_primary_section_start_html{
+   margin-left: 70%;
+  margin-bottom: 5%
+  }
+}
+
+@media (max-width: 750px) {
+  .img_navbar {
+    margin-left: 5%;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .text_navbar {
+     font-size: 70%;
+    position: absolute;
+   }
+}
+@media (max-width: 680px) {
+  .img_navbar {
+    margin-left: 2%;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .text_navbar {
+     font-size: 60%;
+    position: absolute;
+   }
+}
+
+
+@media (max-width: 640px) {
+  .img_navbar {
+   margin-left: 20%;
+   position: absolute;
+  } 
+}
+
+
+@media (max-width: 640px) {
+  .text_navbar {
+     font-size: 80%;
+     margin-top: 17%;
+     margin-left: 3%;
+     max-height: 200px;
+   }
+}
+@media (max-width: 640px) {
+  .primary_text_start_html {
+    margin-top: 40%;
+    margin-left: -7%;
+
+  }
+}
+@media (max-width: 640px) {
+  .secundary_text_start_html {
+    margin-left: 1%;
+   
+  }
+}
+@media (max-width: 640px) {
+  .img_primary_section_start_html{
+   display: none;
+  }
+}
+@media (max-width: 640px) {
+  .linkedin_btn {
+   margin-left: 12%;
+  }
+}
+
+@media (max-width: 600px) {
+  .img_navbar {
+   margin-left: 25%;
+  } 
+}
+@media (max-width: 600px) {
+  .linkedin_btn {
+   margin-left: 15%;
+  }
+}
+
+@media (max-width: 550px) {
+  .img_navbar {
+   margin-left: 25%;
+  } 
+}
+@media (max-width: 550px) {
+  .linkedin_btn {
+   margin-left: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .img_navbar {
+   margin-left: 30%;
+  } 
+}
+@media (max-width: 500px) {
+  .linkedin_btn {
+   margin-left: 25%;
+  }
+}
+  
+@media (max-width: 450px) {
+  .text_navbar {
+   font-size: 60%;
+  } 
+}
+@media (max-width: 450px) {
+  .primary_text_start_html {
+    margin-top: 40%;
+    margin-left: -10%;
+    font-size: 130%;
+
+  }
+}
+@media (max-width: 450px) {
+  .secundary_text_start_html {
+    margin-left: -9%;
+    font-size: 130%;
+
+  }
+}
+
+
